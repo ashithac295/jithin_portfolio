@@ -1,4 +1,6 @@
 import { Project, Service, Testimonial } from '../types';
+import portraitImg from '../assets/images/Jithin_Sunil_DP.jpeg';
+import cinematicHeroImg from '../assets/images/cinematic_film_still_1785684509837.jpg';
 
 export const JITHIN_INFO = {
   name: 'Jithin Sunil',
@@ -9,8 +11,8 @@ export const JITHIN_INFO = {
   titles: ['Branding Specialist', 'Filmmaker', 'Creative Director'],
   tagline: 'Crafting Cinematic Narratives • High-Impact Brand Identities',
   bio: 'Jithin Sunil is a multi-disciplinary Branding Specialist, Filmmaker, and Creative Director based in Dubai, UAE. With over a decade of experience across luxury brand architecture, commercial film production, and high-impact visual storytelling, Jithin bridges the gap between raw artistic emotion and commercial brand strategy.',
-  portraitImg: '/src/assets/images/Jithin_Sunil_DP.jpeg',
-  cinematicHeroImg: '/src/assets/images/cinematic_film_still_1785684509837.jpg',
+  portraitImg,
+  cinematicHeroImg,
   stats: [
     { label: 'Years of Experience', value: '10+' },
     { label: 'Brand Transformations', value: '50+' },
